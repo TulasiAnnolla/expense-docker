@@ -4,7 +4,7 @@ volumes:
   mysql:
 services:
   backend:
-    image: mysql:1.0.0
+    image: backend:1.0.0
     networks:
     - expense
     container_name: backend
